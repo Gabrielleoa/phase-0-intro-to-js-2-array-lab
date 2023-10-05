@@ -2,18 +2,18 @@
   "stats": {
     "suites": 11,
     "tests": 9,
-    "passes": 8,
+    "passes": 9,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-10-01T20:23:54.686Z",
-    "end": "2023-10-01T20:23:54.903Z",
-    "duration": 217
+    "failures": 0,
+    "start": "2023-10-05T12:53:51.957Z",
+    "end": "2023-10-05T12:53:52.170Z",
+    "duration": 213
   },
   "tests": [
     {
       "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
       "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -75,19 +75,18 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "appends a cat to the end of the cats array",
-      "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
       "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the end of the cats array",
+      "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

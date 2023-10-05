@@ -1,7 +1,7 @@
 const cats = ["Milo", "Otis" , "Garfield"];
     
 function destructivelyAppendCat(Ralph) {
-    cats.pudh(Ralph);
+    cats.push(Ralph);
 }
     
 function destructivelyPrependCat(Bob){
